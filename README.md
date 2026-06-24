@@ -19,7 +19,7 @@
 
   1. Clone this repo:
      ```bash
-     git clone https://github.com/YOUR_USERNAME/claude-code-statusline.git](https://github.com/JavidanValiyev/claude-code-statusline
+     git clone https://github.com/JavidanValiyev/claude-code-statusline
 
   2. Copy `settings.json` and `statusline-command.sh` files to your Claude Code config directory (~/.claude/):
   
