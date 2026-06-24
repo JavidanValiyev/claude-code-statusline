@@ -19,25 +19,15 @@
 
   1. Clone this repo:
      ```bash
-     git clone https://github.com/YOUR_USERNAME/claude-code-statusline.git
+     git clone https://github.com/YOUR_USERNAME/claude-code-statusline.git](https://github.com/JavidanValiyev/claude-code-statusline
 
-  2. Copy files to your Claude Code config directory:
-  cp claude-code-statusline/statusline-command.sh ~/.claude/
-  chmod +x ~/.claude/statusline-command.sh
-  3. Merge the status line settings into your ~/.claude/settings.json:
-  {
-    "statusLine": {
-      "type": "command",
-      "command": "~/.claude/statusline-command.sh",
-      "padding": 2
-    }
-  }
-  4. Restart Claude Code. The status line appears at the bottom of your terminal.
+  2. Copy `settings.json` and `statusline-command.sh` files to your Claude Code config directory (~/.claude/):
+  
+  3. Restart Claude Code. The status line appears at the bottom of your terminal.
 
   Customization
 
-  Edit statusline-command.sh to add/remove/reorder segments. Each segment is a parts+=() line — comment out or rearrange
-  as needed.
+  Ask claude code that you want to costumize you statusline and follow the instraction.
 
   Colors use standard ANSI escape codes and can be changed at the top of the script.
 
