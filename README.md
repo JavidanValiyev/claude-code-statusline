@@ -34,7 +34,7 @@
   Requirements
 
   - Claude Code (https://docs.anthropic.com/en/docs/claude-code) CLI
-  - Bash (Git Bash on Windows, native on macOS/Linux)
+  - Bash (Git Bash on Windows)
 
   Keywords
 
